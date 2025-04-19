@@ -14,6 +14,7 @@ int partition(int arr[],int low,int high){
     swap(arr[pivot],arr[j]);
     return j;
 }
+
 void quicksort(int a[],int low, int high){
     if(low<high){
         int p = partition(a,low,high);
@@ -22,7 +23,6 @@ void quicksort(int a[],int low, int high){
     }
 
 }
-
 
 int main(){
     int array[] = {15,15,41,13,12,1};
